@@ -36,3 +36,195 @@
     transform: rotate(360deg);
   }
 }
+.navbar {
+  background-color: white;
+  height: 11vh;
+  width: 93vw;
+  border-radius: 4vh;
+  margin-top: 2.5vh;
+  margin-left: 60px;
+  display: flex;
+  position: fixed;
+
+}
+.firstNav {
+  display: flex;
+}
+.logo {
+  height: 10vh;
+  margin-left: 2vw;
+}
+.secondNav {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 12vw;
+  gap: 4vw;
+  font-size: 16px;
+  font-weight: 600;
+  color: gray;
+}
+.secondNav > div {
+  cursor: pointer;
+}
+.secondNav > div:hover {
+  color: #4c46a0;
+  text-decoration: underline;
+  text-decoration-color: #4c46a0;
+  transition: all 2s;
+} 
+.thirdNav {
+  display: flex;
+  gap: 2vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 17vw;
+}
+.fontawsm {
+  font-size: 3vh;
+}
+.pageBody{
+  width: 100%;
+  background-color: #E8EBF1;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pg11{
+  height: 88vh;
+  width: 45vw;
+  background-color: white;
+  border-top-left-radius: 1vw;
+  border-bottom-left-radius: 1vw;
+  margin-bottom: 2vh;
+  margin-top: 16vh;
+}
+.pg12 {
+  height: 88vh;
+  width: 45vw;
+  background-color: black;
+  border-top-right-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  margin-top: 16vh;
+  margin-bottom: 2vh;
+}
+.pg1img1 {
+  margin-left: 14vw;
+  margin-top: 7vh;
+  height: 23vh;
+}
+.pg1img2 {
+  margin-left: 15vw;
+  margin-top: 16vh;
+  height: 13vh;
+  width: 20vw;
+}
+.headingClass1 {
+  font-size: 7vh;
+  font-weight: 600;
+  text-align: center;
+}
+.headingClass2 {
+  font-size: 7vh;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+.h2class1 {
+  font-size: 7vh;
+  font-weight: 700;
+  text-align: center;
+  color: #848AFF;
+}
+.h2class2 {
+  font-size: 7vh;
+  font-weight: 700;
+  text-align: center;
+  color: #A176D8;
+}
+.content1pg1, .content2pg1 {
+  margin: 3vh auto;
+  text-align: center;
+  width: 35vw;
+  font-size: 17px;
+  color: gray;
+  font-weight: 500;
+}
+.btnpg1 > button {
+  height: 6vh;
+  width: 10vw;
+  border: 0;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  background: rgb(109,82,238);
+  background: linear-gradient(90deg, rgba(109,82,238,1) 0%, rgba(103,112,245,1) 36%);
+}
+.btnpg1 > div {
+  color: #A176D8;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.btnpg1 {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  margin-top: 20vh;
+}
+
+.cont1p2 {
+  position: fixed;
+  height: 100vh;
+  top: 28vh;
+  width: 40vw;
+  margin-left: 4vw;
+  z-index: -99;
+  padding-bottom: 8vh;
+}
+.cont2p2 {
+  background-color: white;
+  width: 40vw;
+  margin-left: 4vw;
+  margin-top: 100%;
+  padding-bottom: 8vh;
+}
+
+.h1p2 {
+  font-size:  8vh;
+  font-weight: 600;
+}
+.h2p2 {
+  font-size: 5vh;
+  margin-top: 4vh;
+  font-weight: 500;
+}
+.para1p2 {
+  font-size: 25px;
+  margin-top: 2vh;
+  color: gray;
+}
+.imgp2 {
+  top: 28vh;
+  right: 10vw;
+  z-index: -99;
+  position: fixed;
+}
+.page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #19191B;
+}
+.h1p3 {
+  
+}
+.h1p3 > h1 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  font-size: 10vh;
+  position: relative;
+  top: 16vh;
+}
